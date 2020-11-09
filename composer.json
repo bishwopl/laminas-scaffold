@@ -1,0 +1,21 @@
+{
+    "name": "bishwopl/laminas-scaffold",
+    "description": "",
+    "keywords": ["framework", "laminas", "scaffold", "code-generator"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^7",
+        "laminas/laminas-code": "^3.4",
+        "laminas/laminas-mvc-console": "^1.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "LaminasScaffold\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
